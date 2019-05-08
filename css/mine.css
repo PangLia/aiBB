@@ -1,7 +1,64 @@
-.navcenter{
-	text-align: center;
+body{
+	font-family: "微软雅黑";
+	background-color: #F3F3F3;
+}
+.UL-center{
+	margin: 0 auto; 
+	display:flex; 
+	justify-content:center;
 }
 
-.navcenterulli {
-	display: inline;
+.UL-right{
+	height: 50px;
+	position: absolute;
+	top: 0;
+	right: 10px;
+	line-height: 50px;
 }
+
+.icon-weibo{
+	background: url(../img/weibo.png) no-repeat;
+	background-size: 22px 22px;
+	width: 22px;
+	height: 22px;
+}
+.icon-ins{
+	background: url(../img/ins.png) no-repeat;
+	background-size: 22px 22px;
+	width: 22px;
+	height: 22px;
+}
+.icon-facebook{
+	background: url(../img/facebook.png) no-repeat;
+	background-size: 22px 22px;
+	width: 22px;
+	height: 22px;	
+}
+.icon-youtube{
+	background: url(../img/Youtube.png) no-repeat;
+	background-size: 35px 22px;
+	width: 35px;
+	height: 22px;	
+}
+
+.ImgCarousel{
+	margin: 0 auto;
+	text-align: center;
+}
+.ImgCarousel img{
+	background-repeat: no-repeat;
+	height:90%;
+	width:92%;
+	overflow: hidden;
+	background-size:cover;
+}
+
+.footer{
+	text-align: center;
+	color:#808080;
+}
+
+.content{
+	margin-top: 52px;
+}
+
