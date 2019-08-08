@@ -59,6 +59,14 @@ body{
 }
 
 .content{
-	margin-top: 52px;
+	margin-top: 320px;
+	margin-bottom: 520px;
+}
+
+.contract{
+	text-align: center;
+}
+.contract {
+	list-style-type:none;
 }
 
